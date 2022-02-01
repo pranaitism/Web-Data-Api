@@ -1,0 +1,153 @@
+
+{
+  "weather": [
+    {
+      "cityId": 1,
+      "cityName": "London",
+      "currentConditions": {
+        "description": "cloud",
+        "temperature": 18,
+        "wind": {
+          "windSpeed": 27,
+          "windDirection": "Easterly",
+          "windChillFactor": 11
+        }
+      }
+    },
+    {
+      "cityId": 2,
+      "cityName": "Manchester",
+      "currentConditions":
+        {
+          "description": "hail",
+          "temperature": 9,
+          "wind":
+          {
+              "windSpeed": 17,
+              "windDirection": "South easterly",
+              "windChillFactor": 7
+          }
+        }
+    },
+    {
+      "cityId": 3,
+      "cityName": "Leeds",
+      "currentConditions":
+        {
+          "description": "heavy cloud",
+          "temperature": 13,
+          "wind":
+          {
+              "windSpeed": 19,
+              "windDirection": "South westerly",
+              "windChillFactor": 3
+          }
+        }
+    },
+    {
+      "cityId": 4,
+      "cityName": "Reading",
+      "currentConditions":
+        {
+          "description": "heavy rain",
+          "temperature": 18,
+          "wind":
+          {
+              "windSpeed": 9,
+              "windDirection": "Westerly",
+              "windChillFactor": 23
+          }
+        }
+    },
+    {
+      "cityId": 5,
+      "cityName": "Glasgow",
+      "currentConditions":
+        {
+          "description": "rain",
+          "temperature": 14,
+          "wind":
+          {
+              "windSpeed": 12,
+              "windDirection": "North westerly",
+              "windChillFactor": 4
+          }
+        }
+    },
+    {
+      "cityId": 6,
+      "cityName": "Brighton",
+      "currentConditions":
+        {
+          "description": "sleet",
+          "temperature": 0,
+          "wind":
+          {
+            "windSpeed": 25,
+            "windDirection": "Easterly",
+            "windChillFactor": -3
+          }
+        }
+    },
+    {
+      "cityId": 7,
+      "cityName": "Cambridge",
+      "currentConditions":
+        {
+          "description": "snow",
+          "temperature": -30,
+          "wind":
+          {
+            "windSpeed": 15,
+            "windDirection": "Southerly",
+            "windChillFactor": -41
+          }
+        }
+    },
+    {
+      "cityId": 8,
+      "cityName": "Poole",
+      "currentConditions":
+        {
+          "description": "sun and cloud",
+          "temperature": 22,
+          "wind":
+          {
+            "windSpeed": 15,
+            "windDirection": "Westerly",
+            "windChillFactor": 19
+          }
+        }
+    },
+    {
+      "cityId": 9,
+      "cityName": "Birmingham",
+      "currentConditions":
+        {
+          "description": "sun",
+          "temperature": 30,
+          "wind":
+          {
+            "windSpeed": 12,
+            "windDirection": "Westerly",
+            "windChillFactor": 28
+          }
+        }
+    },
+    {
+      "cityId": 10,
+      "cityName": "Bath",
+      "currentConditions":
+        {
+          "description": "thunderstorm",
+          "temperature": 5,
+          "wind":
+          {
+            "windSpeed": 80,
+            "windDirection": "westerly",
+            "windChillFactor": -3
+          }
+        }
+    }
+  ]
+}

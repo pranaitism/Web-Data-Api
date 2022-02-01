@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+/* General style */
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid  black;
+    text-align: center;
+}
+
+img{
+    width:24px;
+}
+h1{
+    font-size: 30px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 30px;
+}
+
+#error_data p {
+    color: #e84e4f;
+    font-size:20px;
+}
+
+/*Table style */
+
+th,td {
+    padding: .8rem;
+    border: 1px solid black;
+}
+th {
+    background-color: grey;
+}

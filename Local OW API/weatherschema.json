@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "weather": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "cityId": {
+              "type": "integer"
+            },
+            "cityName": {
+              "type": "string"
+            },
+            "currentConditions": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string",
+                  "enum": [
+                    "Cloud",
+                    "Hail",
+                    "Heavy Cloud",
+                    "Heavy Rain",
+                    "Rain",
+                    "Sleet",
+                    "Snow",
+                    "Sun",
+                    "Sun and Clouds",
+                    "Thunderstorm"
+                  ]
+                },
+                "temperature": {
+                  "type": "number",
+                  "minimum": -58.1,
+                  "maximum": 48.0
+                },
+                "wind": {
+                  "type": "object",
+                  "properties": {
+                    "windSpeed": {
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 173
+                    },
+                    "windDirection": {
+                      "type": "string",
+                      "enum": [
+                        "Northerly",
+                        "North easterly",
+                        "Easterly",
+                        "South easterly",
+                        "Southerly",
+                        "South westerly",
+                        "Westerly",
+                        "North westerly"
+                      ]
+                    },
+                    "windChillFactor": {
+                      "type": "integer",
+                      "minimum": -81,
+                      "maximum": 60
+                    }
+                  },
+                  "required": [
+                    "windSpeed",
+                    "windDirection",
+                    "windChillFactor"
+                  ]
+                }
+              },
+              "required": [
+                "description",
+                "temperature"
+              ]
+            }
+          },
+          "required": [
+            "cityId",
+            "cityName",
+            "currentConditions"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "weather"
+  ]
+}
